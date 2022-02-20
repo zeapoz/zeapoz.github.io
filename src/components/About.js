@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <section id="about" className="m-5">
+    <section id="about" className="mx-16 md:mx-32 lg:mx-48 xl:mx-64 mt-5">
       <h1 className="font-bold text-white title-font text-3xl">
-        Hi, I'm Jonathan.
+        Hi, I'm Jonathan!
       </h1>
       <div className="flex mt-5">
         <p>

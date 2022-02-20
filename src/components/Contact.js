@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="m-5">
+    <section id="contact" className="mx-16 md:mx-32 lg:mx-48 xl:mx-64 py-5">
       <h1 className="font-bold text-center text-white text-3xl">Contact</h1>
       <ul>
         <li>
@@ -12,7 +12,6 @@ export default function Contact() {
           </a>
         </li>
       </ul>
-      <div className="rounded bg-gray-700 mt-10 w-full h-1"></div>
     </section>
   );
 }
