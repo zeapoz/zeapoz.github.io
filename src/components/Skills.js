@@ -4,68 +4,68 @@ export default function Skills() {
       <h1 className="font-bold text-white text-center text-3xl">Skills</h1>
       <br></br>
       <br></br>
-      <div className="flex">
-        <div className="basis-1/3">
+      <div className="flex justify-between">
+        <div className="basis-1/2 xl:basis-1/3">
           <p>
             I love to learn new things and deepen my knowledge in that I already know! At the moment I'm studying Rust, really liking it so far!
           </p>
           <br></br>
           <p>
-            I specialize in Python and as of lately a bit of web development, but I do enjoy a fair bit of back-end development as well.
+            I specialize in Python and as of lately a bit of web development, but I do enjoy a fair bit of back-end development as well. This very website was written using React and the Tailwind CSS framework.
           </p>
           <br></br>
           <p>
-            My current languages of choice to tackle a problem are Python, Rust and JavaScript.
+            Though, my current languages of choice to tackle a problem are Python, Rust and JavaScript/TypeScript.
           </p>
         </div>
-        <div className="grow mx-10">
+        <div className="basis-1/3 xl:basis-4/6 ml-10">
           <h1 className="font-bold">Programming languages</h1>
-          <ul>
-            <il>
+          <ul className="space-y-5 mb-5 xl:space-y-2 xl:mb-2">
+            <li>
               Python
               <div className="w-full h-3 rounded-full bg-gray-700">
                 <div className="rounded-full bg-blue-500 h-full w-2/3"></div>
               </div>
-            </il>
-            <il>
+            </li>
+            <li>
               JavaScript
               <div className="w-full h-3 rounded-full bg-gray-700">
                 <div className="rounded-full bg-blue-500 h-full w-2/5"></div>
               </div>
-            </il>
-            <il>
+            </li>
+            <li>
               .NET
               <div className="rounded-full bg-gray-700">
                 <div className="rounded-full bg-blue-500 h-3 w-2/5"></div>
               </div>
-            </il>
-            <il>
+            </li>
+            <li>
               Rust
               <div className="rounded-full bg-gray-700">
                 <div className="rounded-full bg-blue-500 h-3 w-1/3"></div>
               </div>
-            </il>
-            <il>
+            </li>
+            <li>
               SQL
               <div className="rounded-full bg-gray-700">
                 <div className="rounded-full bg-blue-500 h-3 w-1/4"></div>
               </div>
-            </il>
+            </li>
           </ul>
           <h1 className="font-bold mt-8">Frameworks & more</h1>
-          <ul>
-            <il>
+          <ul className="space-y-5 mb-5 xl:space-y-2 xl:mb-2">
+            <li>
               Pandas & NumPy
               <div className="w-full h-3 rounded-full bg-gray-700">
                 <div className="rounded-full bg-blue-500 h-full w-1/3"></div>
               </div>
-            </il>
-            <il>
+            </li>
+            <li>
               React
               <div className="w-full h-3 rounded-full bg-gray-700">
                 <div className="rounded-full bg-blue-500 h-full w-1/5"></div>
               </div>
-            </il>
+            </li>
           </ul>
         </div>
       </div>
