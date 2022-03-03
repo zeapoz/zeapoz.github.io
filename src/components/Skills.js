@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section id="skills" className="mx-16 md:mx-32 lg:mx-48 xl:mx-64 mt-5">
+    <section id="skills" className="mt-5">
       <h1 className="font-bold text-white text-center text-3xl">Skills</h1>
       <br></br>
       <br></br>

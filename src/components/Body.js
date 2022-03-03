@@ -5,7 +5,7 @@ import Contact from "../components/Contact";
 
 export default function Body() {
   return (
-    <div className="mx-0 md:mx-5 xl:mx-15 2xl:mx-20">
+    <div className="mx-7 sm:mx-10 md:mx-24 lg:mx-32 xl:mx-64 2xl:mx-96">
       <About />
       <Skills />
       <Projects />
