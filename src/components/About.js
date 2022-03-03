@@ -18,9 +18,12 @@ export default function About() {
           </p>
         </div>
       </div>
-      <button className="font-bold rounded-full mt-5 p-4 text-white bg-green-500">
+      <a
+        href="mailto:jonathan4635a@gmail.com"
+        className="inline-block font-bold rounded-full mt-5 p-4 text-white bg-green-500"
+      >
         Send me an email!
-      </button>
+      </a>
       <div className="rounded bg-gray-700 mt-10 w-full h-1"></div>
     </section>
   );
