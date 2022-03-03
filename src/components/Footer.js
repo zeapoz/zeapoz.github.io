@@ -4,9 +4,17 @@ export default function Footer() {
       <div className="flex justify-evenly">
         <div>
           <h1 className="font-bold">Page</h1>
-          <a href="/#about">Home</a><br></br>
-          <a href="/#skills">Skills</a><br></br>
-          <a href="/#projects">Projects</a>
+          <a href="/#about" className="hover:text-white">
+            Home
+          </a>
+          <br></br>
+          <a href="/#skills" className="hover:text-white">
+            Skills
+          </a>
+          <br></br>
+          <a href="/#projects" className="hover:text-white">
+            Projects
+          </a>
         </div>
         <div>
           <h1 className="font-bold">Opportunities</h1>
@@ -16,8 +24,16 @@ export default function Footer() {
         </div>
         <div>
           <h1 className="font-bold">Connect with me</h1>
-          <a href="https://www.linkedin.com/in/jonathan-a-57847421b/" className="hover:text-white">LinkedIn</a><br></br>
-          <a href="https://www.github.com/zeapoz/" className="hover:text-white">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/jonathan-a-57847421b/"
+            className="hover:text-white"
+          >
+            LinkedIn
+          </a>
+          <br></br>
+          <a href="https://www.github.com/zeapoz/" className="hover:text-white">
+            GitHub
+          </a>
         </div>
       </div>
       <div className="flex justify-center">
@@ -25,5 +41,5 @@ export default function Footer() {
       </div>
       <p className="text-center">©2022 Jonathan Andersson</p>
     </footer>
-  )
+  );
 }
