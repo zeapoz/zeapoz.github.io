@@ -6,8 +6,8 @@ export default function Navbar() {
         ["Skills", "/#skills"],
         ["Projects", "#projects"],
         ["Contact", "/#contact"],
-        [<img src="https://img.icons8.com/ios-glyphs/56/969696/linkedin.png" />, "https://www.linkedin.com/in/jonathan-a-57847421b/"],
-        [<img src="https://img.icons8.com/material-outlined/48/969696/github.png" />, "https://www.github.com/zeapoz"],
+        [<img src="https://img.icons8.com/ios-glyphs/56/969696/linkedin.png" alt="LinkedIn" />, "https://www.linkedin.com/in/jonathan-a-57847421b/"],
+        [<img src="https://img.icons8.com/material-outlined/48/969696/github.png" alt="GitHub" />, "https://www.github.com/zeapoz"],
       ].map(([title, url]) => (
         <a href={url} className="hover:text-white">
           {title}

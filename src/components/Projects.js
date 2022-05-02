@@ -12,6 +12,7 @@ export default function Projects() {
           >
             <img
               src="https://img.icons8.com/ios-filled/24/969696/link--v1.png"
+              alt="Link"
               className="inline"
             />
             <h1 className="inline font-bold text-xl"> CHIP-8 Emulator</h1>
@@ -40,6 +41,7 @@ export default function Projects() {
           >
             <img
               src="https://img.icons8.com/ios-filled/24/969696/link--v1.png"
+              alt="Link"
               className="inline"
             />
             <h1 className="inline font-bold text-xl"> 2048 Clone</h1>
