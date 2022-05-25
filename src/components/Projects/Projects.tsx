@@ -1,6 +1,9 @@
+import React from "react";
 import { Project } from "./Project";
 
-export default function Projects() {
+export { Projects };
+
+const Projects = () => {
   return (
     <section id="projects" className="mt-5">
       <h1 className="font-bold text-center text-3xl text-white mb-5">
@@ -16,7 +19,7 @@ export default function Projects() {
         <Project
           title="Scientific Calculator"
           link="https://zeapoz.github.io/calculator"
-          desc="Basic Scientific calculator that tokenizes and parses a mathematical expression."
+          desc="Basic scientific calculator that tokenizes and parses a mathematical expression."
           image="/images/calculator.png"
         />
         <Project

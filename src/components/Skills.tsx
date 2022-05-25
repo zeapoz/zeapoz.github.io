@@ -1,4 +1,8 @@
-export default function Skills() {
+import React from "react";
+
+export { Skills };
+
+const Skills = () => {
   return (
     <section id="skills" className="mt-5">
       <h1 className="font-bold text-white text-center text-3xl">Skills</h1>

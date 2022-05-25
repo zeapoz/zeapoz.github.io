@@ -1,4 +1,8 @@
-export default function Footer() {
+import React from "react";
+
+export { Footer };
+
+const Footer = () => {
   return (
     <footer className="py-10 bg-gray-900">
       <div className="flex justify-evenly">

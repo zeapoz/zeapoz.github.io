@@ -1,4 +1,8 @@
-export default function About() {
+import React from "react";
+
+export { About };
+
+const About = () => {
   return (
     <section id="about" className="mt-16">
       <h1 className="font-bold text-white title-font text-3xl">

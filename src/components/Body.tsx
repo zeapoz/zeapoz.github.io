@@ -1,7 +1,8 @@
-import About from "../components/About";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects/Projects";
-import Contact from "../components/Contact";
+import { About } from "./About";
+import { Skills } from "./Skills";
+import { Projects } from "./Projects/Projects";
+import { Contact } from "./Contact";
+import React from "react";
 
 export default function Body() {
   return (

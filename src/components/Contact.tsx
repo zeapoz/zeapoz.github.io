@@ -1,4 +1,8 @@
-export default function Contact() {
+import React from "react";
+
+export { Contact };
+
+const Contact = () => {
   return (
     <section id="contact" className="py-5 mb-5">
       <h1 className="font-bold text-center text-white text-3xl mb-10">
