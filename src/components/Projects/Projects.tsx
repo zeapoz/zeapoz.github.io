@@ -13,7 +13,7 @@ const Projects = () => {
         <Project
           title="CHIP-8 Emulator"
           link="https://github.com/zeapoz/chip8"
-          desc="A fully functional emulator for the CHIP-8 Virtal Machine, written in Rust."
+          desc="A fully functional emulator for the CHIP-8 Virtual Machine, written in Rust."
           image="https://i.ytimg.com/vi/yRBqQalUeVg/maxresdefault.jpg"
         />
         <Project
@@ -25,7 +25,7 @@ const Projects = () => {
         <Project
           title="2048 Clone"
           link="https://zeapoz.github.io/2048-javascript"
-          desc="A clone of the popular game 2048, implement with standard JavaScript."
+          desc="A clone of the popular game 2048, implemented with standard JavaScript."
           image="https://media.salon.com/2014/04/2048-image.png"
         />
       </div>
