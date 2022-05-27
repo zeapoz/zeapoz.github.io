@@ -10,10 +10,10 @@ const About = () => {
       </h1>
       <div className="flex justify-between mt-5 space-y-5 xl:space-y-0 flex-col xl:flex-row">
         <p className="basis-2/3">
-          I Love to build applications and solve interesting problems with code!
+          I love to build applications and solve interesting problems with code!
           Check out my skills, current and past projects on my page here. I'm
           currently looking for internship opportunities, please contact me on
-          LinkedIn or by an email if you are interested.
+          LinkedIn or by email if you are interested.
         </p>
         <div className="basis-1/4 flex">
           <p>

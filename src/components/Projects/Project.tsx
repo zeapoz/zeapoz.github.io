@@ -27,5 +27,5 @@ const Project = (props: Props) => {
       <p>{props.desc}</p>
       <br></br>
     </div>
-  )
+  );
 }

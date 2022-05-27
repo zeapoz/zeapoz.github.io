@@ -4,18 +4,16 @@ export { Bar };
 
 type Props = {
   title: string,
-  value: string,
+  percentage: number,
 }
 
-const Bar = ({ title, value }: Props) => {
-  let filled = "rounded-full bg-blue-500 h-full w-" + value;
-
+const Bar = ({ title, percentage }: Props) => {
   return (
     <li>
       {title}
       <div className="w-full h-3 rounded-full bg-gray-700">
-        <div className={filled}></div>
+        <div className={"rounded-full bg-blue-500 h-full"} style={{ width: percentage + "%" }}></div>
       </div>
-    </li>
-  )
+    </li >
+  );
 }

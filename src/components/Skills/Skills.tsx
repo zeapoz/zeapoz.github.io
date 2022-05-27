@@ -30,16 +30,16 @@ const Skills = () => {
         <div className="basis-1/3 sm:basis-4/6 md:basis-9/12 xl:basis-4/6 ml-10">
           <h1 className="font-bold">Programming languages</h1>
           <ul className="space-y-5 mb-5 xl:space-y-2 xl:mb-2">
-            <Bar title="Python" value="2/3" />
-            <Bar title="Rust" value="2/3" />
-            <Bar title="JavaScript/TypeScript" value="7/12" />
-            <Bar title=".NET" value="7/12" />
+            <Bar title="Python" percentage={90} />
+            <Bar title="Rust" percentage={85} />
+            <Bar title="JavaScript/TypeScript" percentage={65} />
+            <Bar title=".NET" percentage={60} />
           </ul>
           <h1 className="font-bold mt-8">Frameworks & more</h1>
           <ul className="space-y-5 mb-5 xl:space-y-2 xl:mb-2">
-            <Bar title="SQL" value="7/12" />
-            <Bar title="React" value="2/5" />
-            <Bar title="Pandas & NumPy" value="1/3" />
+            <Bar title="SQL" percentage={55} />
+            <Bar title="React" percentage={35} />
+            <Bar title="Pandas & NumPy" percentage={25} />
           </ul>
         </div>
       </div>
