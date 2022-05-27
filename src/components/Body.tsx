@@ -1,5 +1,5 @@
 import { About } from "./About";
-import { Skills } from "./Skills";
+import { Skills } from "./Skills/Skills";
 import { Projects } from "./Projects/Projects";
 import { Contact } from "./Contact";
 import React from "react";
