@@ -24,7 +24,7 @@ const About = () => {
       </div>
       <a
         href="mailto:jonathan4635a@gmail.com"
-        className="inline-block font-bold rounded-full mt-5 p-4 text-white bg-green-500"
+        className="inline-block font-bold rounded-full mt-5 p-4 text-white bg-green-500 transition hover:scale-105"
       >
         Send me an email!
       </a>

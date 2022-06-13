@@ -9,7 +9,7 @@ const Projects = () => {
       <h1 className="font-bold text-center text-3xl text-white mb-5">
         Projects
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <Project
           title="CHIP-8 Emulator"
           link="https://github.com/zeapoz/chip8"
