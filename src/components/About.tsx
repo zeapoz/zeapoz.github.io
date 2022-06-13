@@ -1,4 +1,5 @@
 import React from "react";
+import Separator from "./Misc/Separator";
 
 export { About };
 
@@ -28,7 +29,7 @@ const About = () => {
       >
         Send me an email!
       </a>
-      <div className="rounded bg-gray-700 mt-10 w-full h-1"></div>
+      <Separator />
     </section>
   );
 }

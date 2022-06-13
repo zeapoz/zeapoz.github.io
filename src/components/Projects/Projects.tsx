@@ -1,4 +1,5 @@
 import React from "react";
+import Separator from "../Misc/Separator";
 import { Project } from "./Project";
 
 export { Projects };
@@ -29,7 +30,7 @@ const Projects = () => {
           image="https://media.salon.com/2014/04/2048-image.png"
         />
       </div>
-      <div className="rounded bg-gray-700 mt-10 w-full h-1"></div>
+      <Separator />
     </section>
   );
 }
